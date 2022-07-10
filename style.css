@@ -111,3 +111,41 @@ a {
    padding: 8px 32px;
    border-radius: 8px;
 }
+
+.info-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 32px 0;
+}
+
+.info-text {
+   font-size: 36px;
+   font-weight: bolder;
+   color: #1F2937;
+   margin-bottom: 24px;
+}
+
+.text {
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+.info-cards {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+figure {
+   width: 130px;
+   height: 130px;
+   border: 3px solid #3882F6;
+   border-radius: 10%;
+}
+
+.info {
+   max-width: 200px;
+   text-align: center;
+}
