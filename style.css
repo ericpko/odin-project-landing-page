@@ -166,3 +166,38 @@ figure {
    font-weight: bolder;
    text-align: right;
 }
+
+.blue-box {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #3882F6;
+   border-radius: 8px;
+   padding: 32px 64px;
+   margin: 64px 0;
+}
+
+.blue-box-text,
+.call-to-action,
+.call-description {
+   margin: 0;
+   padding: 0;
+}
+
+.call-to-action {
+   color: #F9FAF8;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.call-description {
+   color: #E5E7EB;
+}
+
+.sign-up-blue {
+   background-color: #3882F6;
+   color: white;
+   border: 2px solid white;
+   padding: 8px 32px;
+   border-radius: 8px;
+}
